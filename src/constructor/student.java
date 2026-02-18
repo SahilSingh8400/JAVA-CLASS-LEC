@@ -18,7 +18,7 @@ public class student {
         name = n;
     }
 
-    static void display() {
+    void display() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("College: " + College);
@@ -26,8 +26,8 @@ public class student {
 
     public static void main(String[] args) {
 
-        student s1 = new student();          
-        student s2 = new student(101, "Sahil"); 
+        student s1 = new student();
+        student s2 = new student(101, "Sahil");
 
         s1.display();
         System.out.println();
