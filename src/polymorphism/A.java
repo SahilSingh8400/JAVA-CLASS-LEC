@@ -1,24 +1,20 @@
 package polymorphism;
 
-public class A {
-    private int age;
-    public void set(int a){
-        if(a>0){
-            this.age=a;
-        }
-        else{
-            System.out.println("invalid age");
-        }
-    }
-    public int get(){
-        return this.age;
+class Shape{
+    void displayArea(){
+        System.out.println("area cannot be found");
     }
 }
 
-class test{
+class Rectangle extends Shape{
+    void displayArea(){
+        System.out.println("this is area of rreectangel");
+    }
+}
+
+public class A {
     public static void main(String[] args) {
-        A obj=new A();
-        obj.set(-3);
-        System.out.println(obj.get());
+        Rectangle r= new Rectangle();
+        r.displayArea();
     }
 }
