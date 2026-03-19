@@ -1,3 +1,5 @@
+package randomcodes;
+
 public class staticBlock {
 
     static{
@@ -5,13 +7,10 @@ public class staticBlock {
     }   
 
     class Demo{
-        static int x;
-        static{
-            x=100;
+        static int x=10;
 
             public static void main(String[] args){
                 System.out.println("Value of x = " + x);
             }
-        }
     }
 }

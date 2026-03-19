@@ -1,3 +1,5 @@
+package randomcodes;
+
 import java.util.Scanner;
 
 public class sum_of_two_matrix {

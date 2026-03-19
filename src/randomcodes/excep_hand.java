@@ -1,3 +1,5 @@
+package randomcodes;
+
 /*import java.util.Scanner;
 
 class TryCatchDivide {

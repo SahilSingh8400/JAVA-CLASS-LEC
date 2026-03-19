@@ -9,12 +9,12 @@
 class Student{
     int id=100;
     String name="sahil";
-    void show(){
-        System.out.println(id+ " "+ name);
+    void show(int k){
+        System.out.println(k);
     }
     public static void main(String[] args) {
         Student obj= new Student();
-        obj.show();
+        obj.show(4);
     }
 
 }
