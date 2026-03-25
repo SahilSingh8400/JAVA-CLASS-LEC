@@ -2,6 +2,7 @@ package randomcodes;
 
 import java.util.*;
 
+// Auto close of resource like sc.close()
 public class ressource {
     public static void main(String[] args) {
 
