@@ -1,4 +1,4 @@
- package ST01;
+package ST01;
 
 // public class hello {
 //     public static void main(String[] args) {
@@ -7,14 +7,13 @@
 // }
 
 class Student{
-    int id=100;
-    String name="sahil";
-    void show(int k){
-        System.out.println(k);
+    int id;
+    String name;
+    void show(){
+        System.out.println(id+" "+name);
     }
     public static void main(String[] args) {
-        Student obj= new Student();
-        obj.show(4);
+        Student A= new Student();
     }
 
 }
