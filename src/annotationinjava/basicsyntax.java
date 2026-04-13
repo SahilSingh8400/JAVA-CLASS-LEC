@@ -1,14 +1,13 @@
 package annotationinjava;
 
 class A {
-    void showdudfufbduffbw(){
+    void show(){
         System.out.println("thhis is of class A");
     }
 }
 
 class B extends A{
-    @Override // it tell that the mistake is made in method name
-    void showjadfjkswfb(){
+    void show(){
         System.out.println("this is of class B");
     }
 }

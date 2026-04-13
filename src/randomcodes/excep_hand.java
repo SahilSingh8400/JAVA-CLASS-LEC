@@ -28,5 +28,5 @@ class TryCatchDivide {
     */
 
 //throw and throws
-import java.util.Scanner;
+
 

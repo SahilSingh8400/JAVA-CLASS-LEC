@@ -41,5 +41,6 @@ class matrix_mul {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

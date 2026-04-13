@@ -17,7 +17,6 @@ class Demo {
     }
 
     // Single Value Annotation
-    @SuppressWarnings("unchecked")
     void show() {
         System.out.println("Single Value Annotation Example");
     }
