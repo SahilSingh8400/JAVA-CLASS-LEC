@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-public class StudentDemo {
+public class StudentSortingByname {
     public static void main(String[] args) {
 
         LinkedList<Student> list = new LinkedList<>();
