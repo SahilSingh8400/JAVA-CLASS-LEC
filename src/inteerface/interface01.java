@@ -19,7 +19,7 @@ package inteerface;
 // }
 
 // multiple interfaces
-interface A {
+interface d {
     void show();
 }
 
@@ -27,7 +27,7 @@ interface B {
     void display();
 }
 
-class Test implements A, B {
+class Test implements d, B {
      public void show() {
         System.out.println("Show method");
     }
