@@ -1,4 +1,4 @@
-package DynamicProg;
+package JavaCollection.List;
 
 import java.util.*;
 

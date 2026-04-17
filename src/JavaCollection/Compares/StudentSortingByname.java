@@ -1,4 +1,4 @@
-package DynamicProg;
+package JavaCollection.Compares;
 
 import java.util.*;
 
