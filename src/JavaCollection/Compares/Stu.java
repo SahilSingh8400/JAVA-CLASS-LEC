@@ -3,6 +3,7 @@ package JavaCollection.Compares;
 import java.util.*;
 
 class Student implements Comparable<Student> {
+    public static final String marks = null;
     int id;
     String name;
 
@@ -11,8 +12,8 @@ class Student implements Comparable<Student> {
         this.name = name;
     }
 
-    public int compareTo(Student second) {
-        return second.id-this.id; // for descending
+    public int compareTo(Student s) {
+        return s.id-this.id; // for descending
         // return this.id-second.id;  for assending
     }
 }

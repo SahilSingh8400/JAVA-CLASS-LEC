@@ -1,31 +1,33 @@
 package Exceptionhandling;
 
 class evenThread extends Thread {
-    public void run(){
-        for(int i=0; i<6; i++){
-            System.out.println(i);
-        }
+   public void run(){
+    for(int i=0; i<6; i++){
+        System.out.println(i);
     }
-    
+   }
 }
 class oddThread extends Thread {
-    public void run(){
-        for(char ch='a'; ch<='f'; ch++){
-            System.out.println(ch);
-        }
+   public void run(){
+    for(char ch='a'; ch<'f'; ch++){
+        System.out.println(ch);
     }
-    
+   }
 }
 
-class main{
-    public static void main(String[] args) throws InterruptedException {
+class demomain{
+    public static void main(String[] args) {
         evenThread e=new evenThread();
-        oddThread o=new oddThread();
-        e.setPriority(9);
-        o.setPriority(1);
+        oddThread o= new oddThread();
+
         e.start();
-        e.join();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e1) {
+           System.out.println(e1);
+        }
+
         o.start();
-        o.join();
     }
 }
